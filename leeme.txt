@@ -1,0 +1,49 @@
+# ******************************
+ng new proyecto01
+# ******************************
+
+# ******************************
+Instalación de Librerías
+
+npm i bootstrap 
+npm i bootstrap-icons
+npm i @fortawesome/fontawesome-free
+npm i ngx-toastr
+npm i ngx-pagination
+npm i jssha
+npm i jwt-decode
+# ******************************
+
+# ******************************
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+            ],
+
+"production": {
+              "buildTarget": "proyecto01:build:production",
+              "port": 8090
+            },
+            "development": {
+              "buildTarget": "proyecto01:build:development",
+              "port": 8091
+            }
+# ******************************
+
+# ******************************
+ng g c componentes/menu
+ng g c componentes/error
+ng g c componentes/inicio
+ng g c componentes/otro
+ng g c componentes/acercaDe
+# ******************************
+
+# ******************************
+export const routes: Routes = [];
+# ******************************
