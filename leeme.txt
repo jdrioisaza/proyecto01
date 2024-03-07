@@ -42,6 +42,7 @@ ng g c componentes/error
 ng g c componentes/inicio
 ng g c componentes/otro
 ng g c componentes/acercaDe
+ng g c componentes/proyectos/scrumteam
 # ******************************
 
 # ******************************
