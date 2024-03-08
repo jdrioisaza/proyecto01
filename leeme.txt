@@ -43,6 +43,7 @@ ng g c componentes/inicio
 ng g c componentes/otro
 ng g c componentes/acercaDe
 ng g c componentes/proyectos/scrumteam
+ng g c componentes/ciclosDeVida
 # ******************************
 
 # ******************************

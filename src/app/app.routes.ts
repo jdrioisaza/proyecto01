@@ -7,6 +7,7 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { SCRUMTeamComponent } from './componentes/proyectos/scrumteam/scrumteam.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { SingUpComponent } from './componentes/sing-up/sing-up.component';
+import { CiclosDeVidaComponent } from './componentes/ciclos-de-vida/ciclos-de-vida.component';
 
 export const routes: Routes = [
   { path: 'home', component: InicioComponent },
@@ -14,6 +15,7 @@ export const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'other', component: OtroComponent },
   { path: 'about', component: AcercaDeComponent },
+  { path: 'lifecycle', component: CiclosDeVidaComponent},
   { path: 'scrum', component: SCRUMTeamComponent },
   { path: 'login', component: LoginComponent},
   { path: 'signUp', component: SingUpComponent},
