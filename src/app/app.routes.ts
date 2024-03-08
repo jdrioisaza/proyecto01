@@ -8,6 +8,8 @@ import { SCRUMTeamComponent } from './componentes/proyectos/scrumteam/scrumteam.
 import { LoginComponent } from './componentes/login/login.component';
 import { SingUpComponent } from './componentes/sing-up/sing-up.component';
 import { CiclosDeVidaComponent } from './componentes/ciclos-de-vida/ciclos-de-vida.component';
+import { RequerimientosComponent } from './componentes/proyectos/requerimientos/requerimientos.component';
+import { SwebokComponent } from './componentes/proyectos/swebok/swebok.component';
 
 export const routes: Routes = [
   { path: 'home', component: InicioComponent },
@@ -17,6 +19,8 @@ export const routes: Routes = [
   { path: 'about', component: AcercaDeComponent },
   { path: 'lifecycle', component: CiclosDeVidaComponent},
   { path: 'scrum', component: SCRUMTeamComponent },
+  { path: 'requirements', component: RequerimientosComponent},
+  { path: 'swebok', component: SwebokComponent},
   { path: 'login', component: LoginComponent},
   { path: 'signUp', component: SingUpComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
