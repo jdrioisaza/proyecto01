@@ -10,6 +10,7 @@ import { SingUpComponent } from './componentes/sing-up/sing-up.component';
 import { CiclosDeVidaComponent } from './componentes/ciclos-de-vida/ciclos-de-vida.component';
 import { RequerimientosComponent } from './componentes/proyectos/requerimientos/requerimientos.component';
 import { SwebokComponent } from './componentes/proyectos/swebok/swebok.component';
+import { ModeloBDComponent } from './componentes/modelo-bd/modelo-bd.component';
 
 export const routes: Routes = [
   { path: 'home', component: InicioComponent },
@@ -17,12 +18,13 @@ export const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'other', component: OtroComponent },
   { path: 'about', component: AcercaDeComponent },
-  { path: 'lifecycle', component: CiclosDeVidaComponent},
+  { path: 'lifecycle', component: CiclosDeVidaComponent },
   { path: 'scrum', component: SCRUMTeamComponent },
-  { path: 'requirements', component: RequerimientosComponent},
-  { path: 'swebok', component: SwebokComponent},
-  { path: 'login', component: LoginComponent},
-  { path: 'signUp', component: SingUpComponent},
+  { path: 'requirements', component: RequerimientosComponent },
+  { path: 'swebok', component: SwebokComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'signUp', component: SingUpComponent },
+  { path: 'modeldb', component: ModeloBDComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: ErrorComponent },
 ];

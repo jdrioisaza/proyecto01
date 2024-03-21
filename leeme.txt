@@ -44,6 +44,7 @@ ng g c componentes/otro
 ng g c componentes/acercaDe
 ng g c componentes/proyectos/scrumteam
 ng g c componentes/ciclosDeVida
+ng g c componentes/modeloBD
 # ******************************
 
 # ******************************
